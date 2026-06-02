@@ -1,0 +1,24 @@
+# 日志文件
+date/*.log
+
+# 虚拟环境
+venv/
+
+# PyCharm 配置
+.idea/
+
+# 压缩包
+models/*.zip
+
+# 训练历史
+date/history_*.json
+
+# 深度模型权重
+date/best_model_*.pt
+
+# 原始数据备份
+# archive.zip
+
+# Python 缓存
+__pycache__/
+*.pyc
