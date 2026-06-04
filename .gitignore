@@ -22,3 +22,5 @@ date/best_model_*.pt
 # Python »º´æ
 __pycache__/
 *.pyc
+date/features_v6.npz 
+models/all-MiniLM-L6-v2/pytorch_model.bin 
