@@ -24,3 +24,21 @@ __pycache__/
 *.pyc
 date/features_v6.npz 
 models/all-MiniLM-L6-v2/pytorch_model.bin 
+
+# 根目录运行日志
+*.log
+
+# Windows 快捷方式
+*.lnk
+
+# v7 派生缓存（重跑 multimodal_profit.py 可重新生成）
+date/cleaned_data_v6.pkl
+date/encoders_v7.pkl
+date/features_v7.npz
+date/scalers_v7.pkl
+date/shap_summary_v7.png
+
+# 文本嵌入与 v6 旧派生缓存（重跑可重新生成）
+date/*.npy
+date/*_v6.pkl
+date/shap_summary_v6.png
